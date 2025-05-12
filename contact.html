@@ -35,9 +35,64 @@
         </div>
       </nav>
     </div>
-  
 
     <div class="h-40"></div>
+
+    <div class="min-h-screen flex items-center justify-center bg-[#335148] px-4 py-16">
+  <form class="bg-[#002c22] text-[#335148] w-full max-w-lg p-8 rounded-xl shadow-lg space-y-6">
+    <h2 class="text-3xl font-bold text-center text-[#2c000a] mb-6">Contact Me</h2>
+
+    <!-- Name Field -->
+    <div>
+      <label for="name" class="block mb-2 text-lg font-medium">Name</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        required
+        class="w-full p-3 rounded-xl border-2 border-[#335148] bg-[#335148] text-[#2c000a] placeholder-[#2c000a] focus:outline-none focus:ring-2 focus:ring-[#335148]"
+        placeholder="Your name"
+      />
+    </div>
+
+    <!-- Email Field -->
+    <div>
+      <label for="email" class="block mb-2 text-lg font-medium">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        required
+        class="w-full p-3 rounded-xl border-2 border-[#335148] bg-[#335148] text-[#2c000a] placeholder-[#2c000a]  focus:outline-none focus:ring-2 focus:ring-[#335148]"
+        placeholder="you@example.com"
+      />
+    </div>
+
+    <!-- Message Field -->
+    <div>
+      <label for="message" class="block mb-2 text-lg font-medium">Message</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="5"
+        required
+        class="w-full p-3 rounded-xl border-2 border-[#335148] bg-[#335148] text-[#2c000a] placeholder-[#2c000a] focus:outline-none focus:ring-2 focus:ring-[#335148]"
+        placeholder="Write your message here..."
+      ></textarea>
+    </div>
+
+    <!-- Submit Button -->
+    <div class="text-center">
+      <button
+        type="submit"
+        class="px-8 py-3 rounded-xl bg-[#2c000a] text-[#335148] font-semibold hover:bg-[#335148] hover:text-[#2c000a] border-2 border-[#250007] transition-all duration-300"
+      >
+        Send Message
+      </button>
+    </div>
+  </form>
+</div>
+
 
    <script src="Portfolio.js"></script>
 </body>
